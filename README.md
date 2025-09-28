@@ -6,6 +6,8 @@ A web application that calculates similarity scores between BoardGameGeek (BGG) 
 
 This application compares two BGG users' game collections and calculates how similar their tastes are based on the games they own from BGG's top 100 ranked games. The similarity is calculated using the Jaccard index: `|A ∩ B| / |A ∪ B|`, where A and B are the sets of games owned by each user. Jaccard Similarity was used for simplicity. An attempt was made to include the bonus task but there is no endpoint from BGG to fetch all users and would be too cumbersome if attempted to be done thru web scraping.
 
+If more time was given, more test cases will have been made, creating frontend UI, improving the similarity scoring technique, etc.
+
 ## Features
 
 - **Similarity Comparison**: Compare two BGG users and get a detailed similarity report
